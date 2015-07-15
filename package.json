@@ -1,0 +1,22 @@
+{
+  "name": "stan-test",
+  "version": "0.1.0",
+  "description": "performs the test at https://streamco-coding-challenge.herokuapp.com/",
+  "author": "Thomas Payne <tom@darfk.net>",
+  "scripts": {
+    "test": "mocha server_test.js",
+    "server": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/darfk/stan-test"
+  },
+  "keywords": [],
+  "dependencies": {
+  },
+  "devDependencies": {
+    "mocha": "^2.2.5"
+  },
+  "private": true,
+  "license": "MIT"
+}
